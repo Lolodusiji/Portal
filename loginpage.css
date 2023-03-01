@@ -252,7 +252,7 @@ li {
     .err-msg2{
         top: 8.5rem;
         left: 5px;
-        display: block;
+        /* display: block; */
     }
 }
 
