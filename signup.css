@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #Fbcc64;
+}
+
+.group1 {
+    width: 100%;
+    background: #Fbcc64;
+}
+
+.nav {
+    width:100%;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    padding: 18px 0;
+} 
+
+.nav-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.nav-cont>i {
+    position: absolute;
+    right: 0;
+    color: #Fbcc64;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.bar-link {
+    display: none;
+}
+
+.nav-cont>a {
+    font-size: 30px;
+    text-decoration: none;
+    color:  #30233d;
+    font-weight: 700;
+}
+
+.group2>ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.group2>ul>li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 8px 10px;
+    color:#30233d;
+    border-bottom: 4px solid transparent;
+    border-radius: 5px;
+}
+
+.link.active {
+    border-bottom:#Fbcc64 4px solid;
+}
+
+.group2>ul>li a:hover {
+    transition: all .7s ease-in-out;
+    border-bottom:#Fbcc64 4px solid;
+}
+
+.flex2{
+    background:#fff;
+    width:36%;
+    margin: auto;
+    /* height:78vh; */
+    box-shadow: 2px 3px 10px #000000;
+}
+
+.word > form > h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #30233d;
+}
+.word{
+    padding-top: 8px;
+}
+
+.inputs1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    width: 100%;
+}
+
+.inputs2{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    width: 100%;
+}
+
+.pass{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    width: 100%;
+}
+
+.pass1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    width: 100%;
+}
+
+.input1{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.input2{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.input3{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #30233d;
+    padding: 8px 14px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.err-msg1 {
+    position: absolute;
+    display: none;
+    font-size: 8px;
+    color: rgba(241, 59, 59, 0.877);
+    font-weight: 700;
+    top: 6.7rem;
+    left: 5px;
+}
+
+.err-msg2 {
+    position: absolute;
+    display: none;
+    font-size: 8px;
+    color: rgba(241, 59, 59, 0.877);
+    font-weight: 700;
+    top: 9.7rem;
+    left: 5px;
+}
+
+.err-msg3 {
+    position: absolute;
+    display: none;
+    font-size: 8px;
+    color: rgba(241, 59, 59, 0.877);
+    font-weight: 700;
+    top: 13.8rem;
+    left: 5px;
+}
+
+.err-msg4 {
+    position: absolute;
+    display: none;
+    font-size: 8px;
+    color: rgba(241, 59, 59, 0.877);
+    font-weight: 700;
+    top: 20.8rem;
+    left: 5px;
+}
+
+.err-msg5 {
+    position: absolute;
+    display: none;
+    font-size: 8px;
+    color: rgba(241, 59, 59, 0.877);
+    font-weight: 700;
+    top: 24.5rem;
+    left: 5px;
+}
+
+.wrapper {
+    width: 50%; 
+    margin: 50% auto;
+    display: none;
+}
+
+.wrapper>h2 {
+    text-align: end;
+    margin: 17px 0;
+    letter-spacing: 2px;
+    color: #30233d;
+}
+
+.input5 > a{
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #30233d;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 14px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.input5{
+    width:50%;
+    margin: auto;
+}
+
+.birthdaytime{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: 0;
+    width: 100%;
+}
+
+.form{
+    width:85%;
+    margin:auto;
+    position: relative;
+}
+
+ label:nth-child(2){
+    display: flex;
+ }
+
+ label{
+    font-size: 12px;
+    color: #30233d;
+ }
+
+ .word > form > .input2{
+    border:none;
+    padding: 8px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #30233d;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.flex-button > h3{
+    font-size: 12px;
+    color: #30233d;
+    font-weight: 500;
+}
+
+.flex-button > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    background-color:  #30233d;
+    padding: 8px 14px;
+    border-radius: 7px;
+}
+
+.flex-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.carousel > img {
+    width: 100%;
+}
+
+@media screen and (max-width:980px){
+    .flex2{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:660px){
+    .group2 {
+        position: relative;
+        width: 60%;
+        left: 100%;
+    }
+
+    .group2.active {
+        left: 0;
+    }
+
+    .nav-cont>i {
+        display: block;
+
+    }
+
+    .group2>ul {
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        backdrop-filter: blur(16px) saturate(180%);
+        background-color: #Fbcc64;
+        left: 70px;
+        top: 17px;
+        height: 95vh;
+        right: 0;
+        z-index: 1;
+    }
+
+    .inpt-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:465px){
+    .input3{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:465px){
+    .flex2{
+        width:70%;
+    }
+}
+
+@media screen and (max-width:367px){
+    .flex-button{
+        gap:12px;
+    }
+
+    .flex-button > a{
+        padding: 6px 12px ;
+        font-size: 11px;
+    }
+
+    .input3{
+        padding: 6px 12px;
+        font-size: 11px;
+    }
+}

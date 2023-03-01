@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="generalcontainer">
+        <div class="group1">
+            <div class="nav">
+                <div class="nav-cont">
+                    <a href="">Pauds.</a>
+                    <div class="group2">
+                        <ul>
+                            <li><a href="./index.html" class="link">Home</a></li>
+                            <li><a href="./index4.html" class="link">Services</a></li>
+                            <li><a href="./index2.html" class="link">Login</a></li>
+                            <li><a href="./index3.html" class="link">Sign up</a></li>
+                        </ul>
+                    </div>
+                    <i  id = "ham-burger" class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="flex2">
+                <div class="form">
+                    <div class="word">
+                        <form>
+                        <h2>Registration Page</h2>
+                         <label for="html">Name</label>
+                        <input type="text" class="inputs1" name="Username" placeholder="Firstname">
+                        <p class="err-msg1">cant be blank</p>
+                        <input type="text"class="inputs2"name="lastname"placeholder="Lastname"><br>
+                        <p class="err-msg2">cant be blank</p>
+                         <label for="html">Birth date</label><br>
+                        <input type="date" class="birthdaytime" name="birthdaytime"><br>
+                        <p class="err-msg3">cant be blank</p>
+                         <label for="html">Gender</label><br>
+                        <input type="radio" class="input1" name="fav_language" value="Male">
+                         <label for="html">Male</label>
+                        <input type="radio" class="input2" name="fav_language" value="Female">
+                         <label for="html">Female</label><br>
+                         <label for="html">Password</label>
+                        <input type="password"class="pass"placeholder="Password"><br>
+                        <p class="err-msg4">cant be blank</p>
+                         <label for="html">Confirm password</label>
+                        <input type="password"class="pass1"placeholder="Password"><br>
+                        <p class="err-msg5">password error</p>
+
+                        <input class="input3" type="submit" value="SIGN UP">
+                            </form>
+                        </div>
+                        <div class="flex-button">
+                            <h3>Have an account?</h3>
+                            <a href="./index2.html" class="link2" >SIGN IN</a>
+                            </div>
+                            <div class="wrapper">
+                                        <h2>REGISTRATION COMPLETED!</h2>
+                                        <div class="input5">
+                                            <a href="./index2.html">Continue</a>
+                                        </div>
+                            </div>     
+                        </div>
+                    </div>
+            </div>
+            </div>
+    <script src="signup.js"></script>
+</body>
+</html>
