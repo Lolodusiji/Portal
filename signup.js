@@ -10,6 +10,7 @@ let InputR = document.querySelector('.input1')
 let Inputr = document.querySelector('.input2')
 const passW = document.querySelector('.pass')
 const passw = document.querySelector('.pass1')
+const Flex = document.querySelector('.flex2')
 
 // const input = document.querySelector('.input3')
 const form = document.querySelector('.form')
@@ -112,6 +113,8 @@ genform.addEventListener('submit',(e) =>{
         console.log(wrap.innerHTML);
         genform.style.display = 'none';
         wrap.style.display = 'block'
+        Flex.style.height = '78vh'
+        console.log(flex);
         flex.style.display = 'none'
     }
 

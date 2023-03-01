@@ -330,4 +330,7 @@ li {
     .err-msg2{
         top: 8.2rem;
     }
+    .wrapper{
+        width:81%;
+    }
 }

@@ -371,4 +371,17 @@ li {
         padding: 6px 12px;
         font-size: 11px;
     }
+
+    .flex2{
+        width: 80%;
+        /* height: 78vh; */
+    }
+    .wrapper{
+        width: 80%;
+    }
+    .wrapper > h2{
+        text-align: center;
+    }
+
+
 }
