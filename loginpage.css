@@ -65,7 +65,7 @@ li {
     margin: 10px;
 }
 
-.group2>ul>li a {
+.group2 > li a {
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 700;
@@ -261,28 +261,36 @@ li {
         position: relative;
         width: 60%;
         left: 100%;
+        display: none;
     }
 
-    .group2.active {
+    /* .group2.active {
         left: 0;
-    }
+    } */
 
     .nav-cont>i {
         display: block;
 
     }
 
-    .group2>ul {
+    li{
+        text-align: center;
+    }
+
+    .group2.active {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         position: absolute;
         backdrop-filter: blur(16px) saturate(180%);
         background-color: #Fbcc64;
-        left: 70px;
-        top: 17px;
-        height: 95vh;
-        right: 0;
+        left: 50%;
+        top: 33px;
+        height: 100vh;
+        right: 50vh;
+        /* display: none; */
         z-index: 1;
+    }
     }
 
     .inpt-flex {

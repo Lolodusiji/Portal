@@ -44,12 +44,12 @@ body {
     display: none;
 }
 
-.nav-cont>a {
+ .nav-cont>a {
     font-size: 30px;
     text-decoration: none;
     color:  #30233d;
     font-weight: 700;
-}
+} 
 
 .group2>ul {
     display: flex;
@@ -64,7 +64,7 @@ li {
     margin: 10px;
 }
 
-.group2>ul>li a {
+.group2 >li a {
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 700;
@@ -315,10 +315,25 @@ li {
         position: relative;
         width: 60%;
         left: 100%;
+        display: none;
     }
 
     .group2.active {
-        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        backdrop-filter: blur(16px) saturate(180%);
+        background-color: #Fbcc64;
+        left: 50%;
+        top: 33px;
+        height: 100vh;
+        right: 50vh;
+        z-index: 1;
+    }
+
+    li{
+        text-align: center;
     }
 
     .nav-cont>i {
@@ -326,18 +341,6 @@ li {
 
     }
 
-    .group2>ul {
-        flex-direction: column;
-        justify-content: center;
-        position: absolute;
-        backdrop-filter: blur(16px) saturate(180%);
-        background-color: #Fbcc64;
-        left: 70px;
-        top: 17px;
-        height: 95vh;
-        right: 0;
-        z-index: 1;
-    }
 
     .inpt-flex {
         flex-direction: column;
@@ -374,7 +377,6 @@ li {
 
     .flex2{
         width: 80%;
-        /* height: 78vh; */
     }
     .wrapper{
         width: 80%;
@@ -382,6 +384,4 @@ li {
     .wrapper > h2{
         text-align: center;
     }
-
-
 }
